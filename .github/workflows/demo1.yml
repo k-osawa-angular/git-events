@@ -11,7 +11,8 @@ on:
       - 'feat/*'
       # developer-1
     paths-ignore:
-      - '.github/workflow/*'   
+      - '.github/workflow/*'
+      # dev-->master branch   
 jobs:
   deploy:
     runs-on: ubuntu-latest
