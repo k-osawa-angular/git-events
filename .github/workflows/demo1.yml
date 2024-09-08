@@ -11,7 +11,7 @@ on:
       - 'feat/*'
       # developer-1
     paths-ignore:
-      - '.github/workflow/*'
+      - '.github/workflows/*'
       # dev-->master branch   
 jobs:
   deploy:
