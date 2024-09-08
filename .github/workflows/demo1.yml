@@ -2,7 +2,11 @@ name: Events Demo 1
 on: 
   pull_request:
     types:
-    - opened
+     - opened
+    branches:
+     - master
+     - 'dev-*'
+     - 'feat/*'  
   workflow_dispatch:  
   push:
     branches:
